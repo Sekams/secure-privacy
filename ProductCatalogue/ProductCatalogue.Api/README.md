@@ -33,7 +33,7 @@ and retrieve product information.
 
 4. **Setup environment variables:**
 
-   - Create a `.env` file in the project root folder `appsettings.json`
+   - Create a `.env` file in the project root folder
    - Use the variables names in `.example.env` file to populate the `.env` file
 
 5. **Run the application:**
