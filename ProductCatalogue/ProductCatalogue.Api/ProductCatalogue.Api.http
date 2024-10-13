@@ -1,0 +1,11 @@
+@ProductCatalogue.Api_HostAddress = http://localhost:5231
+
+GET {{ProductCatalogue.Api_HostAddress}}/api/Product
+Accept: application/json
+
+POST {{ProductCatalogue.Api_HostAddress}}/api/Product
+Accept: application/json
+
+DELETE {{ProductCatalogue.Api_HostAddress}}/api/Product
+Accept: application/json
+###
