@@ -16,7 +16,7 @@ git clone https://github.com/Sekams/secure-privacy.git
 
 1. Navigate to the project directory:
    ```sh
-   cd ProductCatalogue/ProductCatalogue.Api
+   cd secure-privacy/ProductCatalogue/ProductCatalogue.Api
    ```
 2. Restore dependencies:
    ```sh
@@ -33,7 +33,7 @@ git clone https://github.com/Sekams/secure-privacy.git
 
 1. Navigate to the project directory:
    ```sh
-   cd ProductCatalogue/ProductCatalogue.App
+   cd secure-privacy/ProductCatalogue/ProductCatalogue.App
    ```
 2. Install dependencies:
    ```sh

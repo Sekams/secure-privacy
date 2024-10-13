@@ -17,7 +17,7 @@ and retrieve product information.
    ```
 
    ```sh
-   cd ProductCatalogue/ProductCatalogue.Api
+   cd secure-privacy/ProductCatalogue/ProductCatalogue.Api
    ```
 
 2. **Restore dependencies:**

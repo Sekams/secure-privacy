@@ -16,7 +16,7 @@ for every prefix, the number of 1's is not less than the number of 0's.
    ```
 
    ```sh
-   cd BinaryStringAnalyzer/BinaryService.Tests
+   cd secure-privacy/BinaryStringAnalyzer/BinaryService.Tests
    ```
 
 2. **Restore dependencies:**

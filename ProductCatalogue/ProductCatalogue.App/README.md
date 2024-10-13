@@ -15,7 +15,7 @@ This is the client for the Product Catalogue app. It provides the interface to m
    ```
 
    ```sh
-   cd ProductCatalogue/ProductCatalogue.App
+   cd secure-privacy/ProductCatalogue/ProductCatalogue.App
    ```
 
 2. **Install dependencies:**
