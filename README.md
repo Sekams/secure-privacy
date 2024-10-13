@@ -1,7 +1,8 @@
 # Secure Privacy Test
 
 This repository contains solutions to the Secure Privacy. Below are the
-instructions to run each of them.
+instructions to run each of them. These instructions assume that you have gone
+through the instructions in each project folder and have set them up already.
 
 ## Product Catalogue: API
 
