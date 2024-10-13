@@ -12,6 +12,9 @@ This is the client for the Product Catalogue app. It provides the interface to m
 
    ```sh
    git clone https://github.com/sekams/secure-privacy.git
+   ```
+
+   ```sh
    cd ProductCatalogue/ProductCatalogue.App
    ```
 
@@ -40,6 +43,7 @@ This is the client for the Product Catalogue app. It provides the interface to m
 The application will be available at `https://localhost:4200` by default.
 
 ## Screenshots
+
 ![empty-state](https://github.com/user-attachments/assets/bb39af4b-0a3f-4171-953e-69543b42e08a)
 ![add-product-form](https://github.com/user-attachments/assets/48e73281-d0c2-4d72-93de-562d80b7aa28)
 ![populated](https://github.com/user-attachments/assets/3483a440-720c-4a47-8245-87844472b8e4)

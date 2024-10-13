@@ -4,6 +4,12 @@ This repository contains solutions to the Secure Privacy. Below are the
 instructions to run each of them. These instructions assume that you have gone
 through the instructions in each project folder and have set them up already.
 
+### Clone the repository
+
+```sh
+git clone https://github.com/Sekams/secure-privacy.git
+```
+
 ## Product Catalogue: API
 
 ### How to Run

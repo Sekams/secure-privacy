@@ -14,6 +14,9 @@ and retrieve product information.
 
    ```sh
    git clone https://github.com/sekams/secure-privacy.git
+   ```
+
+   ```sh
    cd ProductCatalogue/ProductCatalogue.Api
    ```
 

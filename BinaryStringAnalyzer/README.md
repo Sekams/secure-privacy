@@ -13,6 +13,9 @@ for every prefix, the number of 1's is not less than the number of 0's.
 
    ```sh
    git clone https://github.com/sekams/secure-privacy.git
+   ```
+
+   ```sh
    cd BinaryStringAnalyzer/BinaryService.Tests
    ```
 
