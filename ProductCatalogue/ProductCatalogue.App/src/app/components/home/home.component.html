@@ -1,0 +1,43 @@
+<div class="flex flex-col items-center bg-slate-200 rounded-md">
+    <div class="flex flex-col md:flex-row  border-b-2 border-solid border-slate-400 p-4 w-full gap-4">
+        <a href="/add-product" class="py-2 px-6 bg-green-300 rounded-md font-semibold no-underline text-center">Add</a>
+        <form class="flex gap-4 flex-1" #searchForm="ngForm" (ngSubmit)="onSubmit(searchForm)">
+            <input name="search" placeholder="Name,Category (Case sensitive)" class="flex-1 py-2 px-6 rounded-md "
+                ngModel />
+            <button type="submit" class="py-2 px-6 bg-slate-300 rounded-md font-semibold">Search</button>
+        </form>
+    </div>
+
+    @if (products.length === 0) {
+    <div class="text-center text-md p-6">
+        You have no products yet.
+    </div>
+    }
+    @else {
+    <div *ngFor="let product of products"
+        class="flex border-b border-solid border-slate-400 p-4 w-full justify-between last-of-type:border-b-0 items-center">
+        <div class="flex gap-6 items-center">
+
+            <div class="relative h-16 md:h-20 w-16 md:w-20 shrink-0 rounded bg-slate-400">
+                @if (product.image) {
+                <img [ngSrc]="product.image" alt="product image" class="object-cover h-16 md:h-20 w-16 md:w-20 rounded"
+                    fill priority />
+                }
+                <span [ngClass]="product.condition == 'new' ? 'bg-green-300': 'bg-amber-300'"
+                    class="text-sm rounded-md px-2 py-1 absolute -top-2.5 -right-4">{{ product.condition }}</span>
+
+            </div>
+
+            <div class="flex flex-col gap-1">
+                <h4 class="text-lg font-semibold">{{ product.name }}</h4>
+                <p class="text-slate-600">{{ product.category }}</p>
+            </div>
+        </div>
+
+        <div class="flex gap-6 md:gap-10">
+            <span class="text-xl font-semibold flex items-center">${{ product.price }}</span>
+            <button class="py-2 px-6 bg-red-300 rounded-md font-semibold" (click)="onDelete(product.id)">Delete</button>
+        </div>
+    </div>
+    }
+</div>

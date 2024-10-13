@@ -1,0 +1,24 @@
+<div class="bg-slate-200 rounded-md p-6">
+    <h2 class="text-xl font-bold mb-4">{{title}}</h2>
+    <div class="flex flex-col gap-6">
+        <div class="flex flex-col gap-1">
+            <label for="saveData" class="block text-gray-700 font-bold mb-2">Store My Data</label>
+            <div class="flex items-center">
+                <input type="checkbox" id="saveData" name="saveData" class="hidden">
+                <label for="saveData"
+                    class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
+                    <input type="checkbox" id="saveData"
+                        class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer"
+                        [formControl]="saveData">
+                    <span class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer"></span>
+                </label>
+                <span class="text-gray-700">Enable to store your data for future use.</span>
+            </div>
+        </div>
+        <div class="flex items-center justify-between">
+            <button (click)="onSaveSettings()"
+                class="bg-green-300 hover:bg-green-500 font-bold py-2 px-4 rounded-md focus:outline-none focus:shadow-outline">Save
+                Settings</button>
+        </div>
+    </div>
+</div>
