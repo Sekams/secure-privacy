@@ -24,16 +24,11 @@ This is the client for the Product Catalogue app. It provides the interface to m
    npm i
    ```
 
-3. **Setup the database:**
-
-   - Run the MongoDB server and set up a user, a database and a collection
-   - Note the connection string, database name and the collection name
-
-4. **Setup environment variables:**
+3. **Setup environment variables:**
 
    Edit the files in the `/src/environments` directory to the values your're using.
 
-5. **Run the application:**
+4. **Run the application:**
    ```sh
    ng serve -o
    ```
