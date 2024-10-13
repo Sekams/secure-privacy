@@ -1,0 +1,8 @@
+# Build directories
+bin/
+obj/
+
+# Environment variables
+.env
+.env.*
+
