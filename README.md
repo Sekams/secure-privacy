@@ -50,7 +50,7 @@ git clone https://github.com/Sekams/secure-privacy.git
 
 1. Navigate to the project directory:
    ```sh
-   cd BinaryStringAnalyzer/BinaryService.Tests
+   cd secure-privacy/BinaryStringAnalyzer/BinaryService.Tests
    ```
 2. Restore dependencies:
    ```sh
